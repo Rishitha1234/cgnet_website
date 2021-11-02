@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato',sans-serif;
+}
+
+nav{
+	width: 100%;
+	background-color: #2B2B2B;
+	overflow: hidden;
+}
+
+nav ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 7px;
+
+}
+
+nav ul li{
+	display: inline-block;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 20px 20px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	font-weight: 700;
+}
+
+.logo{
+
+	float: left;
+	padding: 10px 0 10px;
+}
+
+.second{
+  padding-left: 90;
+}
+
+
+.column{
+  width: 25%;
+}
+.row{
+    padding-top: 60;
+    padding-bottom: 30;
+}
+
+form{
+	width: 500px;
+	height: 130px;
+	margin: auto;
+  padding: 20px;
+	background:#FFF3CE ;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+}
+
+input[type = submit]{
+	padding: 5px;
+	font-size: 12px;
+	width: 100px;
+	background: #FFC30C;;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+select{
+	font-size: 10px;
+	padding: 7px;
+	background: white;
+	width: 200px;
+
+}
+.button{
+padding-top:72;
+height: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.two {
+  float: left;
+  padding: 10px;
+  height:350px; /* Should be removed. Only for demonstration */
+  line-height: 3em;
+
+}
+.wrapper{
+  height: 60px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .btn-1{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  color: #664AFF;
+  background: #fff;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.wrapper .field{
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.wrapper .field input{
+  height: 69%;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 0 130px 0 15px;
+  font-size: 15px;
+  outline: none;
+}
+ 
+.wrapper .field .btn-2{
+  position: absolute;
+  transform: translate(-100%);
+  height: 42px;
+  width: 100px;
+  color: black;
+  background: #FFC30C;
+  border-radius: 5px;
+  line-height: 40px;
+  cursor: ponter;
+
+}
+
+.two{
+  padding-top: 50px;
+}
+

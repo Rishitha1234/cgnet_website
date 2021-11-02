@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+}
+
+body{
+  font-family:sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding-left: 0;
+  padding-right: 0;
+  background-color : white;
+  color: black;
+}
+
+nav{
+  width: 100%;
+  background-color: #2B2B2B;
+  overflow: hidden;
+}
+
+nav ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 7px;
+
+}
+
+nav ul li{
+  display: inline-block;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 20px 20px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+
+.logo{
+
+  float: left;
+  padding: 10px 0 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height:500px; /* Should be removed. Only for demonstration */
+  padding-left:30;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 500px;
+  width: 100%;
+  background: #FFF3CE;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+}
+
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .user-details .input-box{
+  margin: 8px 0 12px 0;
+  width: calc(100% /2 - 20px);
+}
+
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+  height: 30px;
+  width: 100%;
+}
+
+form .user-details .button{
+  height: 45px;
+  float: left;
+  padding-top: 40;
+  padding-right: 100;
+}
+form .user-details .button input{
+  height: 30px;
+  width: 100px;
+  outline: none;
+  color: black;
+  border: none;
+  background: #FFC30C;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.contd{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: auto;
+  flex-direction: column;
+  justify-content: auto;
+  min-height: 95vh;
+}
+
+.contd .quotes{
+  width: 80vw;
+  min-height: 400px;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
+  box-sizing: border-box;
+}
+ 
+.contd .quotes .box{
+  position: relative;
+  width: 25vw;
+  height: 80vh;
+  min-height: 320px;
+  background: white;
+  overflow: hidden;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.box .button{
+  height: 45px;
+  float: left;
+  padding-top: 40;
+  padding-right: 100;
+}
+.box .button input{
+  height: 30px;
+  width: 250px;
+  outline: none;
+  color: black;
+  border: none;
+  background: #FFC30C;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height:150px; /* Should be removed. Only for demonstration */
+  padding-left:30;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.swara{
+  width: 30%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.first:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second {
+  float: left;
+  padding: 10px;
+  height:350px; /* Should be removed. Only for demonstration */
+  line-height: 3em;
+
+}
+.wrapper{
+  height: 60px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .btn-1{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  color: #664AFF;
+  background: #fff;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.wrapper .field{
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.wrapper .field input{
+  height: 69%;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 0 130px 0 15px;
+  font-size: 15px;
+  outline: none;
+}
+ 
+.wrapper .field .btn-2{
+  position: absolute;
+  transform: translate(-100%);
+  height: 42px;
+  width: 100px;
+  color: black;
+  background: #FFC30C;
+  border-radius: 5px;
+  line-height: 40px;
+  cursor: ponter;
+
+}
+
+.second{
+  padding-top: 50px;
+}
